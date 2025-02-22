@@ -9,7 +9,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 app = Flask(__name__)
 
 # Set API Key (Avoid exposing keys in production)
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBGMf8hEEfdWqeMgK98GD2_xQrlwcrJ8-k"
+os.environ["GOOGLE_API_KEY"] = "[API_KEY]"
 
 # Initialize LangChain LLM
 llm = ChatGoogleGenerativeAI(model="gemini-pro")
