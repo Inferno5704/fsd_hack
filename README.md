@@ -4,7 +4,7 @@
 This project is a full-stack application built using React for the frontend, Node.js for the backend, and Flask for handling AI-powered queries using LangChain and Google Generative AI.
 
 ## Tech Stack
-- **Frontend**: React
+- **Frontend**: React (Created using Create React App)
 - **Backend**: Node.js, Flask
 - **AI Integration**: LangChain, Google Generative AI, Gemini API
 - **Debugging**: ChatGPT
@@ -12,11 +12,12 @@ This project is a full-stack application built using React for the frontend, Nod
 ## Project Structure
 ```
 fsd/
-├── App.js
+├── src/
+│   ├── App.js
+│   ├── QueryForm.js
+│   ├── QueryForm.css
 ├── server.js
-├── QueryForm.js
-├── QueryForm.css
-```
+├── server.py
 
 ## Installation
 
