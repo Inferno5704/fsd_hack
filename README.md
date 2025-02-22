@@ -75,6 +75,9 @@ This will start the React development server.
 ## API Integration
 The backend uses LangChain, Google Generative AI, and Gemini API to process user queries dynamically.
 
+## Note
+In server.py, in place of [API_KEY], please replace it with your own Gemini API Key
+
 ## Contributing
 Feel free to submit pull requests or open issues for suggestions and improvements.
 
