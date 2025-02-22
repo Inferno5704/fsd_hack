@@ -48,12 +48,6 @@ pip install flask langchain langchain_google_genai
 
 ## Usage
 
-### Running the Frontend
-```sh
-npm start
-```
-This will start the React development server.
-
 ### Running the Backend
 ```sh
 python server.py
@@ -64,6 +58,11 @@ This will start the Flask server.
 ```sh
 node server.js
 ```
+### Running the Frontend
+```sh
+npm start
+```
+This will start the React development server.
 
 ## Query Processing
 1. The user inputs a query in natural language through the frontend.
